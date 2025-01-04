@@ -1,4 +1,4 @@
-Text.Combine(List.Intersection( {Text.Split([Text1], " "), Text.Split([Text2], " ")}), " ")
+Text.Combine(List.Intersect( {Text.Split([Text1], " "), Text.Split([Text2], " ")}), " ")
 
 
 text1 = "Apple Is Red"
